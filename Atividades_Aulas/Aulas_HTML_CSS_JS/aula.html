@@ -5,24 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="aula.css">
+   
+
 </head> <!--tag de fechamento do head -->
 <body> <!--tag de abertura do body -->
-        
-    <p>Aula de HTML</p>
 
-    <h1>Olá Mundo!</h1>
-    <h2>Olá Mundo!</h2>  
-    <h3>Olá Mundo!</h3>  
-    <h4>Olá Mundo!</h4>  
-    <h5>Olá Mundo!</h5>  
-    <h6>Olá Mundo!</h6>   
+    <div> <!--tag de diagramação. Podemos manipular o que está dentro da div -->
+    
+       <h1 id="título" class="inicio" >Bem vindo ao meu site</h1> <!-- o atributo "id" é único, não pode ser utilizado mais de uma vez, já a classe pode ser utilizada para um grupo. Os dois são atributos opcionais-->
+        <p class = "inicio" id="subtitulo" > Aqui você encontra tecnologia</p>
 
-    <p>Aula de CSS</p>
-    <p>texto 1 texto 2 texto 3</p>
+<section> <!-- tem o mesmo comportamento da div, porém é uma tag mais moderna feita para o HTML5) -->
 
-    <a>texto 1</a>
-    <a>texto 2</a>
-    <a href= "http://www.google.com">Google</a>
+</section>
+
+    </div>
+
+    <div>
+        <h1>Novidades</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quia quibusdam perspiciatis ad, omnis libero pariatur unde quam obcaecati fuga facilis vel explicabo nihil culpa porro dolores? Alias, quasi ratione.</p>
+        <img src="https://i.ytimg.com/vi/cmcXSRnv2nM/hqdefault.jpg"alt ="Gato maravilhoso tomando banho"/>
+    
+    </div>
+
+    <footer>
+        <p>Contatos</p>
+        <a href= "http://www.google.com">Google</a> <!-- tag de referência -->
+    </footer>
+            
 
     <ul> <!--tag ul não compo~e o elemento, é apenas o começo (lista não ordenada) -->
 <li>teste</li>
@@ -35,6 +46,7 @@
         <li>curso</li>
         <li>workshop</li>
         </ol>
-   
+
+        <script src="aula.js"></script> <!--È recomendado colocar o arquivo js no final antes do body) -->
 </body> <!--tag de fechamento do body -->
 </html> <!--tag de fechamento do HTML -->
