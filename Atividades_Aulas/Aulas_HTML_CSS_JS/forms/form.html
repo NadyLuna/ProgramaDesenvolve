@@ -12,13 +12,14 @@
     <form name="meu_form">
 
         <h1>Entre em contato</h1>
-      
+
+       
         <input type="text" id="nomeid" placeholder="Nady Luna" required="required" name="nome" />
         <label for="nome">Nome</label>
-      
+        
         <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
         <label for="fone">Fone</label>
-      
+       
         <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
         <label for="email">Email</label>
       
@@ -26,8 +27,17 @@
       
         <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
 
+        <h2> Quais suas linguagens de programação preferidas?</h2>
+
+         <input type="checkbox" id="php" name="linguagens" value="phplang">
+         <label for="php">PHP</label>
+         <input type="checkbox" id="js" name="linguagens" value="jslang">
+         <label for="js">JavaScript</label>
+         <input type="checkbox" id="csharp" name="linguagens" value="csharplang">
+         <label for="csharp">C#</label>
+
         <script src="./form.js"></script>
-</body>
+      </body>
       </form>
       
 </html>
